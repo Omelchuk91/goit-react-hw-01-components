@@ -12,7 +12,7 @@ export const FriendList = ({ friendList }) => {
           name={name}
           avatar={avatar}
           isOnline={isOnline}
-        ></FriendListItem>
+        />
       ))}
     </FriendListStyle>
   );
